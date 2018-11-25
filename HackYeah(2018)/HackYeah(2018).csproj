@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20181124174308_InitialMigrationsForeignKeys.cs" />
+    <Compile Remove="Migrations\20181124174308_InitialMigrationsForeignKeys.Designer.cs" />
+    <Compile Remove="Migrations\20181124202211_InitialMigrationsForeignKeys.cs" />
+    <Compile Remove="Migrations\20181124202211_InitialMigrationsForeignKeys.Designer.cs" />
+    <Compile Remove="Migrations\20181125002414_azureMigration.cs" />
+    <Compile Remove="Migrations\20181125002414_azureMigration.Designer.cs" />
+    <Compile Remove="Migrations\20181125025754_MigrationWithForeignKey.cs" />
+    <Compile Remove="Migrations\20181125025754_MigrationWithForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20181125025905_MigrationWithForeignKey.cs" />
+    <Compile Remove="Migrations\20181125025905_MigrationWithForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20181125032105_MigrationWithForeignKey.cs" />
+    <Compile Remove="Migrations\20181125032105_MigrationWithForeignKey.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.4" />
+  </ItemGroup>
+
+</Project>
